@@ -4,7 +4,7 @@ import com.example.spring.service.PaymentService;
 
 public class PaymentProcessor {
 
-    private PaymentService paymentService;
+    private final PaymentService paymentService;
 
     public PaymentProcessor(PaymentService paymentService) {
         this.paymentService = paymentService;
